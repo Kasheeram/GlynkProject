@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919663BE2009EE85007AA236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663BD2009EE85007AA236 /* AppDelegate.swift */; };
+		919663C02009EE85007AA236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663BF2009EE85007AA236 /* ViewController.swift */; };
+		919663C32009EE85007AA236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919663C12009EE85007AA236 /* Main.storyboard */; };
+		919663C62009EE85007AA236 /* GlynkProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 919663C42009EE85007AA236 /* GlynkProject.xcdatamodeld */; };
+		919663C82009EE85007AA236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919663C72009EE85007AA236 /* Assets.xcassets */; };
+		919663CB2009EE85007AA236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919663C92009EE85007AA236 /* LaunchScreen.storyboard */; };
+		919663D62009EE85007AA236 /* GlynkProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663D52009EE85007AA236 /* GlynkProjectTests.swift */; };
+		919663E12009EE85007AA236 /* GlynkProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663E02009EE85007AA236 /* GlynkProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919663D22009EE85007AA236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919663B22009EE85007AA236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919663B92009EE85007AA236;
+			remoteInfo = GlynkProject;
+		};
+		919663DD2009EE85007AA236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919663B22009EE85007AA236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919663B92009EE85007AA236;
+			remoteInfo = GlynkProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919663BA2009EE85007AA236 /* GlynkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlynkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919663BD2009EE85007AA236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919663BF2009EE85007AA236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		919663C22009EE85007AA236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919663C52009EE85007AA236 /* GlynkProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlynkProject.xcdatamodel; sourceTree = "<group>"; };
+		919663C72009EE85007AA236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919663CA2009EE85007AA236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919663CC2009EE85007AA236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919663D12009EE85007AA236 /* GlynkProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlynkProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919663D52009EE85007AA236 /* GlynkProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlynkProjectTests.swift; sourceTree = "<group>"; };
+		919663D72009EE85007AA236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919663DC2009EE85007AA236 /* GlynkProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlynkProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919663E02009EE85007AA236 /* GlynkProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlynkProjectUITests.swift; sourceTree = "<group>"; };
+		919663E22009EE85007AA236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919663B72009EE85007AA236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663CE2009EE85007AA236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663D92009EE85007AA236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919663B12009EE85007AA236 = {
+			isa = PBXGroup;
+			children = (
+				919663BC2009EE85007AA236 /* GlynkProject */,
+				919663D42009EE85007AA236 /* GlynkProjectTests */,
+				919663DF2009EE85007AA236 /* GlynkProjectUITests */,
+				919663BB2009EE85007AA236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919663BB2009EE85007AA236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919663BA2009EE85007AA236 /* GlynkProject.app */,
+				919663D12009EE85007AA236 /* GlynkProjectTests.xctest */,
+				919663DC2009EE85007AA236 /* GlynkProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919663BC2009EE85007AA236 /* GlynkProject */ = {
+			isa = PBXGroup;
+			children = (
+				919663BD2009EE85007AA236 /* AppDelegate.swift */,
+				919663BF2009EE85007AA236 /* ViewController.swift */,
+				919663C12009EE85007AA236 /* Main.storyboard */,
+				919663C72009EE85007AA236 /* Assets.xcassets */,
+				919663C92009EE85007AA236 /* LaunchScreen.storyboard */,
+				919663CC2009EE85007AA236 /* Info.plist */,
+				919663C42009EE85007AA236 /* GlynkProject.xcdatamodeld */,
+			);
+			path = GlynkProject;
+			sourceTree = "<group>";
+		};
+		919663D42009EE85007AA236 /* GlynkProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				919663D52009EE85007AA236 /* GlynkProjectTests.swift */,
+				919663D72009EE85007AA236 /* Info.plist */,
+			);
+			path = GlynkProjectTests;
+			sourceTree = "<group>";
+		};
+		919663DF2009EE85007AA236 /* GlynkProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				919663E02009EE85007AA236 /* GlynkProjectUITests.swift */,
+				919663E22009EE85007AA236 /* Info.plist */,
+			);
+			path = GlynkProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919663B92009EE85007AA236 /* GlynkProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919663E52009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProject" */;
+			buildPhases = (
+				919663B62009EE85007AA236 /* Sources */,
+				919663B72009EE85007AA236 /* Frameworks */,
+				919663B82009EE85007AA236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlynkProject;
+			productName = GlynkProject;
+			productReference = 919663BA2009EE85007AA236 /* GlynkProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919663D02009EE85007AA236 /* GlynkProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919663E82009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProjectTests" */;
+			buildPhases = (
+				919663CD2009EE85007AA236 /* Sources */,
+				919663CE2009EE85007AA236 /* Frameworks */,
+				919663CF2009EE85007AA236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919663D32009EE85007AA236 /* PBXTargetDependency */,
+			);
+			name = GlynkProjectTests;
+			productName = GlynkProjectTests;
+			productReference = 919663D12009EE85007AA236 /* GlynkProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		919663DB2009EE85007AA236 /* GlynkProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919663EB2009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProjectUITests" */;
+			buildPhases = (
+				919663D82009EE85007AA236 /* Sources */,
+				919663D92009EE85007AA236 /* Frameworks */,
+				919663DA2009EE85007AA236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919663DE2009EE85007AA236 /* PBXTargetDependency */,
+			);
+			name = GlynkProjectUITests;
+			productName = GlynkProjectUITests;
+			productReference = 919663DC2009EE85007AA236 /* GlynkProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919663B22009EE85007AA236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Pro Retina";
+				TargetAttributes = {
+					919663B92009EE85007AA236 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					919663D02009EE85007AA236 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 919663B92009EE85007AA236;
+					};
+					919663DB2009EE85007AA236 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 919663B92009EE85007AA236;
+					};
+				};
+			};
+			buildConfigurationList = 919663B52009EE85007AA236 /* Build configuration list for PBXProject "GlynkProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919663B12009EE85007AA236;
+			productRefGroup = 919663BB2009EE85007AA236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919663B92009EE85007AA236 /* GlynkProject */,
+				919663D02009EE85007AA236 /* GlynkProjectTests */,
+				919663DB2009EE85007AA236 /* GlynkProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919663B82009EE85007AA236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919663CB2009EE85007AA236 /* LaunchScreen.storyboard in Resources */,
+				919663C82009EE85007AA236 /* Assets.xcassets in Resources */,
+				919663C32009EE85007AA236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663CF2009EE85007AA236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663DA2009EE85007AA236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919663B62009EE85007AA236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919663C02009EE85007AA236 /* ViewController.swift in Sources */,
+				919663BE2009EE85007AA236 /* AppDelegate.swift in Sources */,
+				919663C62009EE85007AA236 /* GlynkProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663CD2009EE85007AA236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919663D62009EE85007AA236 /* GlynkProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919663D82009EE85007AA236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919663E12009EE85007AA236 /* GlynkProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919663D32009EE85007AA236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919663B92009EE85007AA236 /* GlynkProject */;
+			targetProxy = 919663D22009EE85007AA236 /* PBXContainerItemProxy */;
+		};
+		919663DE2009EE85007AA236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919663B92009EE85007AA236 /* GlynkProject */;
+			targetProxy = 919663DD2009EE85007AA236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		919663C12009EE85007AA236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919663C22009EE85007AA236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		919663C92009EE85007AA236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919663CA2009EE85007AA236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919663E32009EE85007AA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		919663E42009EE85007AA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919663E62009EE85007AA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919663E72009EE85007AA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		919663E92009EE85007AA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlynkProject.app/GlynkProject";
+			};
+			name = Debug;
+		};
+		919663EA2009EE85007AA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlynkProject.app/GlynkProject";
+			};
+			name = Release;
+		};
+		919663EC2009EE85007AA236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlynkProject;
+			};
+			name = Debug;
+		};
+		919663ED2009EE85007AA236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlynkProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SpaceBasic.GlynkProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlynkProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919663B52009EE85007AA236 /* Build configuration list for PBXProject "GlynkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919663E32009EE85007AA236 /* Debug */,
+				919663E42009EE85007AA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919663E52009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919663E62009EE85007AA236 /* Debug */,
+				919663E72009EE85007AA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919663E82009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919663E92009EE85007AA236 /* Debug */,
+				919663EA2009EE85007AA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919663EB2009EE85007AA236 /* Build configuration list for PBXNativeTarget "GlynkProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919663EC2009EE85007AA236 /* Debug */,
+				919663ED2009EE85007AA236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		919663C42009EE85007AA236 /* GlynkProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				919663C52009EE85007AA236 /* GlynkProject.xcdatamodel */,
+			);
+			currentVersion = 919663C52009EE85007AA236 /* GlynkProject.xcdatamodel */;
+			path = GlynkProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 919663B22009EE85007AA236 /* Project object */;
+}
