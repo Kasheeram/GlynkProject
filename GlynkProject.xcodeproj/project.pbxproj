@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910F84EB200DDD2A00A2D52A /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910F84EA200DDD2A00A2D52A /* AnimationViewController.swift */; };
 		919663BE2009EE85007AA236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663BD2009EE85007AA236 /* AppDelegate.swift */; };
 		919663C02009EE85007AA236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663BF2009EE85007AA236 /* ViewController.swift */; };
 		919663C32009EE85007AA236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919663C12009EE85007AA236 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		919663CB2009EE85007AA236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919663C92009EE85007AA236 /* LaunchScreen.storyboard */; };
 		919663D62009EE85007AA236 /* GlynkProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663D52009EE85007AA236 /* GlynkProjectTests.swift */; };
 		919663E12009EE85007AA236 /* GlynkProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663E02009EE85007AA236 /* GlynkProjectUITests.swift */; };
+		919663F12009EF69007AA236 /* GTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919663F02009EF69007AA236 /* GTableViewCell.swift */; };
+		919663F22009F3FF007AA236 /* FeedJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 919663EE2009EF07007AA236 /* FeedJson.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910F84EA200DDD2A00A2D52A /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		919663BA2009EE85007AA236 /* GlynkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlynkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919663BD2009EE85007AA236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		919663BF2009EE85007AA236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		919663DC2009EE85007AA236 /* GlynkProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlynkProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		919663E02009EE85007AA236 /* GlynkProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlynkProjectUITests.swift; sourceTree = "<group>"; };
 		919663E22009EE85007AA236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919663EE2009EF07007AA236 /* FeedJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FeedJson.json; sourceTree = "<group>"; };
+		919663F02009EF69007AA236 /* GTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				919663BD2009EE85007AA236 /* AppDelegate.swift */,
 				919663BF2009EE85007AA236 /* ViewController.swift */,
 				919663C12009EE85007AA236 /* Main.storyboard */,
+				910F84EA200DDD2A00A2D52A /* AnimationViewController.swift */,
 				919663C72009EE85007AA236 /* Assets.xcassets */,
 				919663C92009EE85007AA236 /* LaunchScreen.storyboard */,
+				919663EE2009EF07007AA236 /* FeedJson.json */,
 				919663CC2009EE85007AA236 /* Info.plist */,
 				919663C42009EE85007AA236 /* GlynkProject.xcdatamodeld */,
+				919663F02009EF69007AA236 /* GTableViewCell.swift */,
 			);
 			path = GlynkProject;
 			sourceTree = "<group>";
@@ -238,6 +247,7 @@
 				919663CB2009EE85007AA236 /* LaunchScreen.storyboard in Resources */,
 				919663C82009EE85007AA236 /* Assets.xcassets in Resources */,
 				919663C32009EE85007AA236 /* Main.storyboard in Resources */,
+				919663F22009F3FF007AA236 /* FeedJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				919663C02009EE85007AA236 /* ViewController.swift in Sources */,
+				919663F12009EF69007AA236 /* GTableViewCell.swift in Sources */,
+				910F84EB200DDD2A00A2D52A /* AnimationViewController.swift in Sources */,
 				919663BE2009EE85007AA236 /* AppDelegate.swift in Sources */,
 				919663C62009EE85007AA236 /* GlynkProject.xcdatamodeld in Sources */,
 			);
